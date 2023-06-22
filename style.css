@@ -1,0 +1,16 @@
+
+.header {
+    border: black 5px solid;
+}
+
+.second {
+    border: pink 5px solid;
+}
+
+.third {
+    border: blue 5px solid;
+}
+
+.footer {
+    border: yellow 5px solid;
+}
