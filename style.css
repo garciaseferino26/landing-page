@@ -1,7 +1,7 @@
 
 html {
     display: flex;
-    max-width: 800px;
+    max-width: 1200px;
     min-width: 450px;
     height: auto;
     margin: 0 100px;
@@ -59,9 +59,8 @@ a,
 .header_bottom {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     padding: 50px;
-
 }
 
 .header_bottom_left {
@@ -108,7 +107,37 @@ a,
 .second {
     border: pink 5px solid;
     background-color: white;
+    padding: 0 75px;
 }
+
+.second h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.second_body {
+    display: flex;
+    padding: 0 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.second_body .second_text {
+    width:150px;
+}
+
+.second_body img {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border-radius: 25px;
+    border: solid #3882F6 3px;
+}
+
+
+
+
+
 
 .third {
     border: blue 5px solid;
